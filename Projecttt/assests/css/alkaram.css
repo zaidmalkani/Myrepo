@@ -1,0 +1,175 @@
+/* Navbar links hover effect */
+.navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out;
+    justify-content: center;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change to your desired color */
+    justify-content: center;
+}
+
+/* Dropdown menu hover */
+.navbar-nav .dropdown-menu {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Dropdown items hover effect */
+.navbar-nav .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #ffffff; /* Change to your desired color */
+}
+
+.site-footer {
+    font-size: 14px;
+    color: #9f9f9f;
+    line-height: 1.6;
+text-decoration: none;
+}
+    .site-footer .inner {
+      padding-top: 0px;
+      padding-bottom: 70px;
+      background: #0b5862db; 
+      text-decoration: none;
+    }
+      .site-footer .inner.first {
+        padding-top: 80px; }
+    @media (max-width: 991.98px) {
+      .site-footer {
+        padding-top: 30px; } }
+    .site-footer a {
+      color: #ffffff; }
+      .site-footer a:hover {
+        color: #ffffff;
+        text-decoration: underline; }
+    .site-footer .widget {
+      margin-bottom: 30px; }
+      .site-footer .widget h3 {
+        font-size: 14px;
+        margin-bottom: 20px;
+        color: #ffffff;
+        font-family: "Inter", sans-serif; 
+        text-decoration: none;}
+      .site-footer .widget .social li {
+        display: inline-block; }
+        .site-footer .widget .social li a {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background: #1A374D;
+          display: inline-block;
+          position: relative;
+          color: #ffffff;
+          text-decoration: none;
+          -webkit-box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.2); }
+          .site-footer .widget .social li a span {
+            font-size: 16px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);   
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+          .site-footer .widget .social li a:hover {
+            background-color: #6ca62e;
+            color: #ffffff; }
+      .site-footer .widget .links li {
+        display: block;
+        margin-bottom: 10px; }
+        .site-footer .widget .links li a {
+          color: #ffffff; }
+          .site-footer .widget .links li a:hover {
+            color: #ffffff;
+            text-decoration: none; }
+    .site-footer ul.quick-info li {
+      position: relative;
+      padding-left: 30px; }
+      .site-footer ul.quick-info li:before {
+        left: 0;
+        position: absolute;
+        content: "";
+        font-family: 'icomoon';
+        color: #6998AB; }
+      .site-footer ul.quick-info li.email:before {
+        content: "\f0e0"; }
+      .site-footer ul.quick-info li.phone:before {
+        content: "\f095"; }
+      .site-footer ul.quick-info li.address:before {
+        content: "\e8b4"; }
+
+        .navbar-nav .nav-link {
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+        
+        .navbar-nav .nav-link:hover {
+            background-color: rgb(28, 100, 151); /* Change background color to green on hover */
+            color: white !important; /* Optional: change text color for better contrast */
+            border-radius: 8px;
+        }
+
+        .dropdown-item {
+            transition: background-color 9s ease; /* Smooth transition */
+    
+        }
+    
+    
+        .dropdown-menu li:hover {
+          background-color: rgb(28, 100, 151); /* Change background color to green on hover */
+          color: white; /* Optional: change text color for better contrast */
+        }
+        /* Section NEW ARRIVALS Start */
+.main-txt h1{
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+  text-shadow: 0px 1px 1px black;
+}
+
+.main-txt h1 span{
+  color: #1f3969;
+}
+.packages .card{
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.packages .card img{
+  border-radius: 5px;
+}
+.packages .card .card-body{
+  background: transparent;
+}
+.packages .card .card-body h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.packages .card .card-body p{
+  font-size: 15px;
+}
+.checked{
+  color: #0f7f8e84;
+}
+.star i{
+  font-size: 15px;
+}
+.packages .card .card-body h6{
+  font-size: 20px;
+}
+.packages .card .card-body a{
+  padding: 10px;
+  text-decoration: none;
+  background: #1f3969;
+  color: white;
+  border-radius: 5px;
+}
+/* Section NEW ARRIVALS End */
+
